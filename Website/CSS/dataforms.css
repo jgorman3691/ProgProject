@@ -1,0 +1,43 @@
+input{
+	background-color:white;
+	border-style:solid;
+	border-color:rgb(245, 245, 239);
+	border-radius:7px;
+	border-width:1px;
+	width:100px;
+	padding:20px;
+	margin:20px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+input.tbox{
+	box-shadow: 3px 5px 9px 2px rgba(0,0,0,1);
+}
+input.tbox:hover{
+	box-shadow: 4px 6px 10px 3px rgba(0,0,0,1);
+}
+input.tbox:active{
+	background-color:#e6e6e6;
+	box-shadow: 4px 6px 10px 3px rgba(0,0,0,1);
+}
+button{
+	background-color:rgb(230,230,230);
+	color:black;
+	font-size:17px;
+	font-family:Arial, Helvetica, sans-serif;
+	border-style:none;
+	list-style-type:none;
+	padding:15px 10px;
+	margin:5px 5px;
+	box-shadow: 4px 6px 10px 3px rgba(0,0,0,1);
+}
+button.submit{
+	display:inline-block;
+}
+div {
+	background-color:rgba(255,255,255,0.1);
+	align-self:center;
+	border-style:none;
+}
+/*<!--
+ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAgtXv3ejQr1wQJHrD2k2ejljPxMAZMmVcWDAHsqNAAdXYiKhkAjRwnwN4n5/aXrOY8qhbOu/h1ws68GHMoZlJ85GYFayMhDvoJ3NpiLvpKo87VIhM+HRxNJOHYxE4kNGIb2WkUjFh1QDAYancAEImmKDx0HkQcBof3eEv7cx/HLgzrEj6DaY2YAz3omvQ11EdEbuyJ1w1t7LPmpZ0bjqCt9D6x/wu8u9nZkrjwcKAHhFL5eFk00XU4rx6pmXCFH3BXWWgBtl9XlOcfEbsnKL9ZL43pQgFvMIHAlRbnEwLH5q3kuYRbTEgHRZXZ1pzyJDioYRAMtSQCjBzhi73JFPt4Q== RaspberryPi4
+-->*/
